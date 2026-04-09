@@ -20,3 +20,61 @@ int main() {
 }
 
 ```
+## দ্বিতীয় ক্লাস
+*loop= for, while, do-while*
+
+*For*
+```c
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+int i;
+      for (i=1; i<=5; i++) {
+      printf("valoi\n");
+      printf("%d\n",i);
+       }
+    return 0;
+}
+```
+
+
+*while*
+```c
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+int i=1;
+      while(i<=5) {
+      printf("ratul\n");
+      
+      printf("%d\n",i);
+      i++;
+      
+      }
+ return 0;
+}
+
+```
+
+*do-while*
+```c
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+int i=1;
+      do {
+      printf("%d\n",i);
+      i++;
+       }while(i<=10);
+       
+    return 0;
+}
+
+```
+
+
