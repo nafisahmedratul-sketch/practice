@@ -30,11 +30,9 @@ int main() {
 
 int main()
 {
-int i;
-      for (i=1; i<=5; i++) {
-      printf("valoi\n");
-      printf("%d\n",i);
-       }
+ for (int i=1; i<=10; i++){
+        printf("%d\n", i);
+        }
     return 0;
 }
 ```
@@ -47,14 +45,11 @@ int i;
 
 int main()
 {
-int i=1;
-      while(i<=5) {
-      printf("ratul\n");
+int i = 1;
+        while (i<=10){
+            printf("%d\n", i); i++;}
       
-      printf("%d\n",i);
-      i++;
       
-      }
  return 0;
 }
 
@@ -66,12 +61,13 @@ int i=1;
 #include<stdlib.h>
 int main()
 {
-int i=1;
-      do {
-      printf("%d\n",i);
-      i++;
-       }while(i<=10);
-       
+ int i = 1;
+ do {
+        printf("%d\n", i);
+        i++;
+    }
+
+    while (i<=130);
     return 0;
 }
 
